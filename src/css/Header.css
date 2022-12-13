@@ -1,0 +1,88 @@
+.header-div {
+    display: flex;
+    z-index: 10;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.logo-div:hover {
+    cursor: pointer;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.nav-bar ul li a:hover {
+    background: rgb(245, 247, 250);
+    transition: all 0.8s ease;
+    border-radius: 4px;
+}
+
+.button-div button {
+    border: none;
+    outline: none;
+    background-color: #00baf2;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.button-div button:hover {
+    background: rgb(0, 41, 112);
+    transition: all 0.6s ease;
+}
+
+.mob1 span {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.toggle-icon span i {
+    font-size: 50px;
+}
+
+.toggle-btn-div {
+    display: none;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgba(250, 250, 250, 1);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.bx-shadow{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1070px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .toggle-btn-div {
+        display: block;
+    }
+}

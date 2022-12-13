@@ -1,0 +1,115 @@
+.payment-instrument-div {
+  background: rgb(245, 247, 250);
+}
+
+.business-services-div {
+  background-color: rgb(255, 255, 255);
+}
+
+h1.fastest {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+p.load {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+div.pd-all {
+  padding-top: 5%;
+  padding-bottom: 8%;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+div.div-bg {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.learnmore-btn button {
+  border: none;
+  outline: none;
+  background: rgb(0, 41, 112);
+  color: white;
+  border-radius: 20px;
+}
+
+.learnmore-btn button:hover {
+  border: none;
+  outline: none;
+  background-color: #00baf2;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.6s ease;
+}
+
+.financial-section {
+  background: #f5f7fa;
+  background-image: url('https://pwebassets.paytm.com/frontendcommonweb/static/69678bc5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div.div-light {
+  background: rgb(245, 247, 250);
+}
+
+.sliders-card-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sliders-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-div1 {
+  width: 18%;
+  background-color: #00baf2;
+  border-radius: 5px;
+  opacity: 0.7;
+  white-space: normal;
+}
+.card-div1:hover{
+  width: 18%;
+  background-color: #00baf2;
+  border-radius: 5px;
+  opacity: 1;
+  white-space: normal;
+  cursor: pointer;
+
+}
+.card-div1:hover img.lg-img{
+  transform: scale(1.1);
+  transition: all 0.8s ease;
+}
+.footer-div{
+  background-color: rgb(245, 247, 250);
+}
+button.get-on{
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.footer1{
+  background-color: #00baf2;
+  padding: 6px;
+}
+.footer2{
+  background: rgb(0, 41, 112);
+  padding: 6px;
+}
+.toggle-icon i{
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: rgb(112, 112, 112);
+}
